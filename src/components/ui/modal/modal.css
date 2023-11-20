@@ -1,0 +1,86 @@
+.modal {
+  position: fixed;
+  background-color: #938f8f7f;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal_content {
+  padding: 20px;
+  background-color: #fff;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+}
+
+.btn1 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  left: -90px;
+  top: -70px;
+  background-color: rgb(248, 248, 238);
+  border: 1px solid white;
+}
+
+.btn1:active {
+  background-color: green;
+  color: white;
+}
+
+
+.btn2 {
+  border:none;
+  border-radius: 3px;
+  width: 100px;
+  height: 30px;
+  display: block;
+  background-color:#6A5ACD;
+  background-size: 200% 100%;
+  color: #fff;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+}
+
+
+.btn2:hover {
+   background-color:aliceblue;
+  color: rgb(133, 132, 132);
+}
+
+.input1 {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* .input1:hover {
+  background-color: #fff;
+  color: #4caf50;
+  border: 1px solid #4caf50;
+  cursor: pointer;
+}
+
+.input1:focus{
+  outline: 1px solid green;
+  color: green;
+}
+
+.input1:focus-visible{
+outline: 3px solid green;
+} */
